@@ -1,4 +1,4 @@
-const VERSION = '1.0.1'
+const VERSION = '1.0.2'
 const TARGET_VERSION = '1.2.5';
 
 /**
@@ -186,7 +186,7 @@ function bindEvents() {}
 function init() {
   showHeaderDisplay();
   showNewAppModal();
-  showUpdateModal();
+  // showUpdateModal();
   bindEvents();
 
   console.log('ai daily news script loaded! version: ' + VERSION)
