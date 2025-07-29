@@ -98,6 +98,8 @@ function showHeaderDisplay() {
  * update Modal 출력
  */
 function showUpdateModal() {
+  return;
+
   const version = getAppVersion();
   const modal = document.getElementById('fe-update-modal');
 
