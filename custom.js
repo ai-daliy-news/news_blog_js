@@ -1,4 +1,4 @@
-const VERSION = '1.0'
+const VERSION = '1.0.1'
 const TARGET_VERSION = '1.2.5';
 
 /**
@@ -188,6 +188,7 @@ function init() {
   bindEvents();
 
   console.log('ai daily news script loaded! version: ' + VERSION)
+  document.getElementById('agent_test').innerHTML = getAgent();
 }
 
 if (document.readyState === 'loading') {
