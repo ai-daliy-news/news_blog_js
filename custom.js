@@ -1,5 +1,5 @@
 const VERSION = '1.0.1'
-const TARGET_VERSION = '1.2.5';
+const TARGET_VERSION = '1.2.6';
 
 /**
  * Agent 조회
