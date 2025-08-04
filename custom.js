@@ -95,6 +95,15 @@ function showHeaderDisplay() {
 }
 
 /**
+ * 앱 다운로드 노출 처리
+ */
+function showAppDownloadDisplay() {
+  if (isNativeApp()) {
+    document.getElementById('fe-app-download').parentElement.parentElement.remove()
+  }
+}
+
+/**
  * update Modal 출력
  */
 function showUpdateModal() {
@@ -185,6 +194,7 @@ function bindEvents() {}
 // 초기화 함수
 function init() {
   showHeaderDisplay();
+  showAppDownloadDisplay();
   showNewAppModal();
   // showUpdateModal();
   bindEvents();
